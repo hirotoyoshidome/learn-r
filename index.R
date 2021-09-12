@@ -66,7 +66,7 @@ head(data)
 print(data[1,2])
 
 # apply関数（データフレームの操作。列、行ごとに集計できる）
-apply(data,2,sum)
+apply(data, 2, sum)
 
 # リスト（リストはデータフレームのように2次元構造ではなく、何でもOK）
 list.sample <- list(
